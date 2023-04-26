@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "agni-demo-devx-0426-001"
+  description: "Demo0426"
+  links:
+    - title: Website
+      # Change the template in the future to collect the domain name mtk8s.io
+      # parameters.properties.name(type: string,default: 'world!')
+      url: https://agni-demo-devx-0426-001.mtk8s.io
+  annotations:
+    argocd/app-name: "agni-demo-devx-0426-001"
+    sonarqube.org/project-key: "agni-demo-devx-0426-001"
+    jenkins.io/job-full-name: "agni-demo-devx-0426-001_App_Pipeline"
+    github.com/project-slug: kbmdev/agni-demo-devx-0426-001
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "agni-demo-devx-0426-001"
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/team-policy"
+  system: "system:default/policy-details"

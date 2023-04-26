@@ -1,0 +1,7 @@
+site_name: "agni-demo-devx-0426-001"
+docs_dir: docs
+site_description: "Demo0426"
+nav:
+  - Introduction: index.md
+plugins:
+  - techdocs-core
